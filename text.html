@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>validate.Text Boxes</title>
+<script type="text/javascript">function validate()
+{
+var myArray=new Array();
+for(var 1=0;i<document.myForm.length;i++)
+{
+if(document.myForm.elements[i]value.length==0)
+{
+myArray,push(document.MyForm,element[i],name);
+}
+}
+if(myArray.length=0){alert("the following text boxes are empty:\n"+myArray);
+}
+}
+</script>
+</head>
+<body bg color=cyan>
+<h1 align=center>text Box.validation</h1>
+<hr>
+<form name="myForm"on "sumbit="validate()">
+Name:<input type=text name="name"/><br><br>
+class:<nbsp<input type=textname="class"/><br><br>
+Age:&nbsp&nbsp&nbsp<input type =text name="age"/><br><br>
+<input type="sumbit"value="send message"/>
+</form>
+</body>
+</html>
